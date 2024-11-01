@@ -25,11 +25,14 @@ In this section, we focus on preparing data for machine learning through **Featu
    - Example: Linear models assume **linear relationships** between predictors and the target.
 
 ### Linear Regression Example
-   - Formula: \( y = \beta_0 + \beta_1 \cdot x1 + \beta_2 \cdot x2 \)
-   - `β1` and `β2` are coefficients for predictor variables (e.g., cast and marketing budgets) impacting the target (e.g., revenue).
+- Formula: 
+  \[
+  y = \beta_0 + \beta_1 \cdot x_1 + \beta_2 \cdot x_2
+  \]
+  - where \(\beta_1\) and \(\beta_2\) are coefficients for predictor variables (e.g., cast and marketing budgets) impacting the target (e.g., revenue).
 
 ### Transforming for Better Fit
-   - Variables like `x1` and `x2` can be transformed (e.g., log or polynomial transformations) to achieve a **linear relationship** and improve model fit.
+   - Variables like \(x_1\) and \(x_2\) can be transformed (e.g., log or polynomial transformations) to achieve a **linear relationship** and improve model fit.
 
 ---
 
