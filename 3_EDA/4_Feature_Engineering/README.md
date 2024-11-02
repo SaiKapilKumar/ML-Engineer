@@ -26,9 +26,9 @@ In this section, we focus on preparing data for machine learning through **Featu
 
 ### Linear Regression Example
 - Formula: 
-  $$
+  ```math
   y = \beta_0 + \beta_1 \cdot x_1 + \beta_2 \cdot x_2
-  $$
+  ```
     - where $\beta_1$ and $\beta_2$ are coefficients for predictor variables (e.g., cast and marketing budgets) impacting the target (e.g., revenue).
 
 ### Transforming for Better Fit
